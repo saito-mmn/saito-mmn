@@ -20,6 +20,5 @@
 * Data ingestion / ETL / Data Quality
 * GitHub Actions / GitHub Pages
 * HTML / CSS / JavaScript
-* Financial & Real Estate Data
 
 [Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Live Demo](https://saito-mmn.github.io/hotel-supply-demand-etl/)
