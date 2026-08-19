@@ -8,7 +8,9 @@
 
 ## Featured Project
 
-**Hotel Supply & Demand ETL**
+### **Hotel Supply & Demand ETL**
+
+[Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Live Demo](https://saito-mmn.github.io/hotel-supply-demand-etl/)
 
 ホテル担保評価の実務課題を題材に、観光庁・e-Statの宿泊統計を取得・正規化し、
 
@@ -18,7 +20,7 @@
 
 公式データの更新検知から再取得・品質検証・DB/レポート再生成・GitHub Pages更新まで自動化しています。
 
-### Tech Stack
+#### Tech Stack
 - Data Pipeline: Python
 - Database: SQLite
 - Data Quality: validation / automated tests
@@ -26,4 +28,4 @@
 - Reporting: HTML / CSS / JavaScript
 - Hosting: GitHub Pages
 
-[Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Live Demo](https://saito-mmn.github.io/hotel-supply-demand-etl/)
+
