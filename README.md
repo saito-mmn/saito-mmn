@@ -16,7 +16,7 @@
 
 までを一貫して構築したデータパイプラインです。
 
-* Python / T-SQL / SQLite
+* Python / SQLite
 * Data ingestion / ETL / Data Quality
 * GitHub Actions / GitHub Pages
 * HTML / CSS / JavaScript
