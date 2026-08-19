@@ -16,6 +16,8 @@
 
 までを一貫して構築したデータパイプラインです。
 
+公式データの更新検知から再取得・品質検証・DB/レポート再生成・GitHub Pages更新まで自動化しています。
+
 * Python / SQLite
 * Data ingestion / ETL / Data Quality
 * GitHub Actions / GitHub Pages
