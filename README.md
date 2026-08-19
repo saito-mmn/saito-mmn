@@ -6,7 +6,7 @@
 
 現在は、**業務上の曖昧な仕様や未整備なデータを構造化し、再現可能なデータ処理・分析基盤へ落とし込むこと**をテーマに個人開発を行っています。
 
-### Featured Project
+## Featured Project
 
 **Hotel Supply & Demand ETL**
 
