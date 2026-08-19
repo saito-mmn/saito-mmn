@@ -18,9 +18,12 @@
 
 公式データの更新検知から再取得・品質検証・DB/レポート再生成・GitHub Pages更新まで自動化しています。
 
-* Python / SQLite
-* Data ingestion / ETL / Data Quality
-* GitHub Actions / GitHub Pages
-* HTML / CSS / JavaScript
+### Tech Stack
+- Data Pipeline: Python
+- Database: SQLite
+- Data Quality: validation / automated tests
+- Automation: GitHub Actions
+- Reporting: HTML / CSS / JavaScript
+- Hosting: GitHub Pages
 
 [Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Live Demo](https://saito-mmn.github.io/hotel-supply-demand-etl/)
