@@ -6,26 +6,42 @@
 
 現在は、**業務上の曖昧な仕様や未整備なデータを構造化し、再現可能なデータ処理・分析基盤へ落とし込むこと**をテーマに個人開発を行っています。
 
+---
+
 ## Featured Project
 
-### **Hotel Supply & Demand ETL**
+### Hotel Supply & Demand ETL
+
+**ホテル担保評価の実務課題を題材にした、公的統計の自動更新型データパイプライン**
 
 [Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Live Demo](https://saito-mmn.github.io/hotel-supply-demand-etl/)
 
-ホテル担保評価の実務課題を題材に、観光庁・e-Statの宿泊統計を取得・正規化し、
+観光庁・e-Statの宿泊統計を取得・正規化し、品質検証、SQLiteへの格納、分析レポート生成までを一貫して自動化しています。
 
-`Source → ETL → Data Quality → SQLite → Analytics Report`
+```text
+Source
+  ↓
+ETL
+  ↓
+Data Quality
+  ↓
+SQLite
+  ↓
+Analytics Report
+```
 
-までを一貫して構築したデータパイプラインです。
-
-公式データの更新検知から再取得・品質検証・DB/レポート再生成・GitHub Pages更新まで自動化しています。
+さらに、公式データの更新検知から再取得、DB・レポート再生成、GitHub Pagesへの反映まで自動化しています。
 
 #### Tech Stack
-- Data Pipeline: Python
-- Database: SQLite
-- Data Quality: validation / automated tests
-- Automation: GitHub Actions
-- Reporting: HTML / CSS / JavaScript
-- Hosting: GitHub Pages
+
+| Area          | Technology                   |
+| ------------- | ---------------------------- |
+| Data Pipeline | Python                       |
+| Database      | SQLite                       |
+| Data Quality  | Validation / Automated Tests |
+| Automation    | GitHub Actions               |
+| Reporting     | HTML / CSS / JavaScript      |
+| Hosting       | GitHub Pages                 |
+
 
 
