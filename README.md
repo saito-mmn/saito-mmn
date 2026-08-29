@@ -39,9 +39,9 @@ Source → ETL → Data Quality → SQLite → Analytics Report
 
 公式データの更新・訂正検知、データ来歴管理、品質検証、安全なDB・レポート更新、テスト、GitHub Actionsによる自動更新・デプロイまで実装しています。
 
-Tech Stack
+#### Tech Stack
 
-Python · SQLite · pytest · GitHub Actions · HTML / CSS / JavaScript · GitHub Pages
+`Python` · `SQLite` · `pytest` · `GitHub Actions` · `HTML / CSS / JavaScript` · `GitHub Pages`
 
 
 
