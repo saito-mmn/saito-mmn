@@ -17,7 +17,7 @@
 
 **ホテル担保評価の実務課題を題材にした、公的統計の自動更新型データパイプライン**
 
-[Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Live Demo](https://saito-mmn.github.io/hotel-supply-demand-etl/)
+[Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Github Pages(静的レポート)](https://saito-mmn.github.io/hotel-supply-demand-etl/)・[Tableau Dashboard(動的レポート)](https://public.tableau.com/views/_17880794228750/1?:language=ja-JP&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 #### Why
 
@@ -34,14 +34,14 @@
 #### How
 
 ```text
-Source → ETL → Data Quality → SQLite → Analytics Report
+Source → ETL → Data Quality → SQLite → Analytics Report(Github Pages/Tableau)
 ```
 
 公式データの更新・訂正検知、データ来歴管理、品質検証、安全なDB・レポート更新、テスト、GitHub Actionsによる自動更新・デプロイまで実装しています。
 
 #### Tech Stack
 
-`Python` · `SQLite` · `pytest` · `GitHub Actions` · `HTML / CSS / JavaScript` · `GitHub Pages`
+`Python` · `SQLite` · `pytest` · `GitHub Actions` · `HTML / CSS / JavaScript` · `GitHub Pages`・`Tableau`
 
 
 
