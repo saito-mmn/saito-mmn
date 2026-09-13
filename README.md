@@ -11,37 +11,17 @@
 
 ---
 
-## Featured Project
+## Portfolio
 
-### Hotel Supply & Demand ETL
+金融・不動産の実務課題を起点に、データ取得・ETL・品質管理・DB設計・分析・運用までを
+再現可能な仕組みにすることをテーマに開発しています。
 
-**ホテル担保評価の実務課題を題材にした、公的統計の自動更新型データパイプライン**
+詳細は各プロジェクトのREADMEをご参照ください。
 
-[Repository](https://github.com/saito-mmn/hotel-supply-demand-etl) · [Github Pages(静的レポート)](https://saito-mmn.github.io/hotel-supply-demand-etl/)・[Tableau Dashboard(動的レポート)](https://public.tableau.com/views/_17880794228750/1?:language=ja-JP&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-#### Why
-
-銀行でホテル担保評価を担当する中で、宿泊需要や客室稼働率などの市場データを継続的に確認する一方、公的統計が複数のExcelに分散し、都度収集・加工する負荷を感じていました。
-
-そこで、**分析のたびにデータを集め直すのではなく、継続的に更新・再利用できる仕組み**として実装しました。
-
-#### What
-
-観光庁・e-Statの宿泊統計を取得・正規化し、全国・都道府県・市区町村の宿泊需要、客室稼働率、外国人比率、施設数などを継続的に確認できるデータ基盤とMarket Reportを生成します。
-
-担保価値を自動判定するものではなく、**評価担当者が市場環境を確認するための一次資料**を提供します。
-
-#### How
-
-```text
-Source → ETL → Data Quality → SQLite → Analytics Report(Github Pages/Tableau)
-```
-
-公式データの更新・訂正検知、データ来歴管理、品質検証、安全なDB・レポート更新、テスト、GitHub Actionsによる自動更新・デプロイまで実装しています。
-
-#### Tech Stack
-
-`Python` · `SQLite` · `pytest` · `GitHub Actions` · `HTML / CSS / JavaScript` · `GitHub Pages`・`Tableau`
+| Project | 内容 | Output | Why | What | How | Tech Stack |
+|---|---|---|---|---|---|---|
+| **[Hotel Supply & Demand ETL](https://github.com/saito-mmn/hotel-supply-demand-etl)** | 宿泊市場データ基盤 | [GitHub Pages](https://saito-mmn.github.io/hotel-supply-demand-etl/) / [Tableau Public](https://public.tableau.com/views/_17880794228750/1?:language=ja-JP&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) | ホテル担保評価で、公的統計の収集・加工を毎回手作業で行う負荷があった | 観光庁・e-Statの統計を継続的に取得・正規化し、市場分析レポートを生成 | Source → ETL → Data Quality → SQLite → Report。更新・訂正検知、来歴管理、品質検証、CI/CDまで自動化 | Python / SQLite / pytest / GitHub Actions / HTML / CSS / JavaScript / Tableau |
+| **Investment Monitoring Data Platform** `WIP` | 投資判断支援データ基盤・Webアプリ | Public Preview 準備中 | 投資判断に必要な市場・財務データと判断根拠が分散し、継続的な観測・検証が難しい | 戦略・テーマ・銘柄・市場データ・財務データを一元管理し、投資判断を再現可能にする | API → ETL → Data Quality → DB → Web。データ来歴、冪等更新、日次処理、バックアップ・復旧を設計 | Python / FastAPI / SQLite / GCS / GitHub Actions / Next.js / TypeScript |
 
 
 
