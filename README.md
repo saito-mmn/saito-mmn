@@ -18,7 +18,6 @@
 
 詳細は各プロジェクトのREADMEをご参照ください。
 
-## Portfolio
 
 
 | Project                                                                                                                           | Output                                                                                                                                                                                                                | Why                                                     | What                                                | How                                                                                                                                  | Tech Stack                                                                                               |
